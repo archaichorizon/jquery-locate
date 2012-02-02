@@ -79,9 +79,3 @@ jQuery.fn.locate = function (refEl, position) {
         });
     });
 };
-
-/**
- * @namespace Contains resources used by jquery-locate
- */
-jQuery.locate = {
-};
