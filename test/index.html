@@ -5,11 +5,16 @@
         <title>jquery-locate</title>
 
         <style type="text/css">
+            body {
+                font-size: 80%;
+            }
+
             .test {
                 float: left;
-                width: 200px;
+                width: 150px;
                 height: 300px;
                 margin: 0 10px 10px 0;
+                padding-right: 50px;
             }
 
             .test > .ref_el {
@@ -34,101 +39,101 @@
         <h1>jquery-locate</h1>
 
         <div class="test" id="test_1">
-            <h2>Left Top</h2>
+            <h2><code>lt</code> (Left Top)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_1 > .el').locate(jQuery('#test_1 > .ref_el'), 'lt');
+                jQuery('#test_1 > .el').locate('#test_1 > .ref_el', 'lt');
             </script>
         </div>
 
         <div class="test" id="test_2">
-            <h2>Left Centre</h2>
+            <h2><code>lc</code> (Left Centre)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_2 > .el').locate(jQuery('#test_2 > .ref_el'), 'lc');
+                jQuery('#test_2 > .el').locate('#test_2 > .ref_el', 'lc');
             </script>
         </div>
 
         <div class="test" id="test_3">
-            <h2>Left Bottom</h2>
+            <h2><code>lb</code> (Left Bottom)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_3 > .el').locate(jQuery('#test_3 > .ref_el'), 'lb');
+                jQuery('#test_3 > .el').locate('#test_3 > .ref_el', 'lb');
             </script>
         </div>
 
         <div class="test" id="test_4">
-            <h2>Right Top</h2>
+            <h2><code>rt</code> (Right Top)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_4 > .el').locate(jQuery('#test_4 > .ref_el'), 'rt');
+                jQuery('#test_4 > .el').locate('#test_4 > .ref_el', 'rt');
             </script>
         </div>
 
         <div class="test" id="test_5">
-            <h2>Right Centre</h2>
+            <h2><code>rc</code> (Right Centre)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_5 > .el').locate(jQuery('#test_5 > .ref_el'), 'rc');
+                jQuery('#test_5 > .el').locate('#test_5 > .ref_el', 'rc');
             </script>
         </div>
 
         <div class="test" id="test_6">
-            <h2>Right Bottom</h2>
+            <h2><code>rb</code> (Right Bottom)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_6 > .el').locate(jQuery('#test_6 > .ref_el'), 'rb');
+                jQuery('#test_6 > .el').locate('#test_6 > .ref_el', 'rb');
             </script>
         </div>
 
         <div class="test" id="test_7">
-            <h2>Centre Top</h2>
+            <h2><code>ct</code> (Centre Top)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_7 > .el').locate(jQuery('#test_7 > .ref_el'), 'ct');
+                jQuery('#test_7 > .el').locate('#test_7 > .ref_el', 'ct');
             </script>
         </div>
 
         <div class="test" id="test_8">
-            <h2>Centre Centre</h2>
+            <h2><code>cc</code> (Centre Centre)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_8 > .el').locate(jQuery('#test_8 > .ref_el'), 'cc');
+                jQuery('#test_8 > .el').locate('#test_8 > .ref_el', 'cc');
             </script>
         </div>
 
         <div class="test" id="test_9">
-            <h2>Centre Bottom</h2>
+            <h2><code>cb</code> (Centre Bottom)</h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_9 > .el').locate(jQuery('#test_9 > .ref_el'), 'cb');
+                jQuery('#test_9 > .el').locate('#test_9 > .ref_el', 'cb');
             </script>
         </div>
 
         <div class="test" id="test_10">
-            <h2>l+50t+50</h2>
+            <h2><code>l+50t+50</code></h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_10 > .el').locate(jQuery('#test_10 > .ref_el'), 'l+50t+50');
+                jQuery('#test_10 > .el').locate('#test_10 > .ref_el', 'l+50t+50');
             </script>
         </div>
 
         <div class="test" id="test_11">
-            <h2>l-50t-50</h2>
+            <h2><code>l-50t-50</code></h2>
             <div class="ref_el"></div>
             <div class="el"></div>
             <script type="text/javascript">
-                jQuery('#test_11 > .el').locate(jQuery('#test_11 > .ref_el'), 'l-50t-50');
+                jQuery('#test_11 > .el').locate('#test_11 > .ref_el', 'l-50t-50');
             </script>
         </div>
     </body>
