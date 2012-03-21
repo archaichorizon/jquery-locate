@@ -12,14 +12,10 @@ pixel offset for each axis (e.g. `r+3b-3`).
 
 In the following example `#locateable` is moved to the top left corner of `#reference`.
 
-<code>
-jQuery('#locateable').locate('#reference', 'lt');
-</code>
+    jQuery('#locateable').locate('#reference', 'lt');
 
 Next, `#locateable` is offset from the top left corner of `#reference` by 50 pixels along both the x and the y axes.
 
-<code>
-jQuery('#locateable').locate('#reference', 'l+50t+50');
-</code>
+    jQuery('#locateable').locate('#reference', 'l+50t+50');
 
 Browse to `test/index.html` for working examples.
